@@ -7,20 +7,28 @@ const ZmdmsButtonMeta: IPublicTypeComponentMetadata = {
   componentName: "ZmdmsButton",
   title: "按钮",
   npm: {
-    package: "low-code-components",
+    package: "@zmdms/lowcode-components",
     version: "0.1.0",
     exportName: "ZmdmsButton",
-    main: "src\\index.tsx",
+    main: "",
     destructuring: true,
     subName: "按钮",
   },
   configure: {
     props: [
       {
+        title: "测试",
+        name: "test",
+        setter: {
+          componentName: "StringSetter",
+          isRequired: true,
+        },
+      },
+      {
         title: {
           label: {
             type: "i18n",
-            zh_CN: "子元素",
+            zh_CN: "内容",
             en_US: "children",
           },
           tip: {

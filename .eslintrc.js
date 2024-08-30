@@ -7,7 +7,13 @@ module.exports = {
   ],
   plugins: ["prettier"],
   rules: {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        // 忽略换行格式的检查
+        // endOfLine: "auto",
+      },
+    ],
     // 是否需要末尾分号
     semi: ["error", "always"],
     // 使用单引号还是双引号
@@ -16,5 +22,6 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     // 运行定义空的接口
     "@typescript-eslint/no-empty-interface": 0,
+    "no-console": 0,
   },
 };

@@ -1,7 +1,7 @@
 {
-  "name": "low-code-components",
-  "version": "0.1.0",
-  "description": "low-code-components",
+  "name": "@zmdms/lowcode-components",
+  "version": "0.0.1",
+  "description": "@zmdms/lowcode-components",
   "main": "lib/index.js",
   "module": "es/index.js",
   "exports": {
@@ -65,19 +65,20 @@
     "react-dom": "^16.x"
   },
   "devDependencies": {
+    "@alib/build-scripts": "^0.1.18",
     "@alifd/build-plugin-lowcode": "^0.4.0",
     "@alifd/theme-2": "^0.4.0",
+    "@alilc/build-plugin-alt": "^1.3.4",
     "@types/react": "^16.14.24",
     "@types/react-dom": "^16.9.4",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@umijs/plugin-sass": "^1.1.1",
     "build-plugin-component": "^1.12.1",
     "build-plugin-fusion": "^0.1.0",
-    "build-scripts": "^1.0.0",
     "cross-env": "^7.0.3",
     "dumi": "^1.1.49",
     "dumi-theme-default": "^1.1.24",
-    "f2elint": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.0.0"
+    "f2elint": "^1.2.0"
   },
   "dependencies": {
     "@alifd/next": "^1.25.27",
@@ -97,7 +98,7 @@
     "react-resizable": "^3.0.5",
     "screenfull": "^6.0.2",
     "zmdms-utils": "^0.0.64",
-    "zmdms-webui": "^1.3.2"
+    "zmdms-webui": "^1.3.3"
   },
   "acceptDependencies": {
     "webpack": "^4.46.x"
@@ -107,7 +108,7 @@
   },
   "componentConfig": {
     "isComponentLibrary": true,
-    "materialSchema": "https://unpkg.com/low-code-components@0.1.0/build/lowcode/assets-prod.json"
+    "materialSchema": "https://unpkg.com/@zmdms/lowcode-components@0.0.1/build/lowcode/assets-prod.json"
   },
   "lcMeta": {
     "type": "component"

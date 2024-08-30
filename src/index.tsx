@@ -1,5 +1,3 @@
-import "zmdms-webui/dist/index.default.css";
-
 export { default as ZmdmsButton } from "./components/zmdms-button";
 export type { IZmdmsButtonProps } from "./components/zmdms-button";
 

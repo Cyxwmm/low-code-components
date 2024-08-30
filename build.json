@@ -1,5 +1,5 @@
 {
-  "library": "ZmdmsComps",
+  "library": "ZmdmsLowcodeComponents",
   "libraryTarget": "umd",
   "sourceMap": true,
   "alias": {
